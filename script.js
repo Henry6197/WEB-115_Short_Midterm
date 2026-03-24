@@ -23,4 +23,3 @@ function calculateAmortization() {
             }
             tablebody.innerHTML+=row;
     }
-    else; 
