@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <p>Henry Short</p>
+    <p>henry.short08@gmail.com</p>
+    <p>3/24/26</p>
+    <input type="number" id="loanamount" placeholder="loanAmount ($)">
+    <input type="number" id ="intrestrate" placeholder="intrestrate (%)">
+    <input type="number" id="loanterm" placeholder = "Term (Years)">
+    <button onclick="calculateAmortization()">calculateAmortization</button>
+
+    <table id="scheduleTable">
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Payment</th>
+                <th>Principle Paid</th>
+                <th>Intrest Paid</th>
+                <th>Remaining Balance</th>
+            </tr>
+        </thead>
+        <script src="script.js"></script>
+        <tbody id = "schedulebody"></tbody>
+    </table>
+        
+    <script src="script.js"></script>
+</body>
+</html>
